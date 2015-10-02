@@ -94,7 +94,7 @@
                 android:layout_width="353dp"
                 android:layout_height="fill_parent"
                 android:layout_gravity="right|center_vertical"
-
+                android:background="@drawable/status_border_green"
                 android:layout_marginRight="12dp"
                 android:layout_marginTop="10dp"
                 android:layout_marginBottom="4dp"

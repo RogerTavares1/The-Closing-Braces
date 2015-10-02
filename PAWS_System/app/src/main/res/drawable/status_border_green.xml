@@ -1,0 +1,8 @@
+<!--Layout design for the status frame - green means Free-->
+
+<shape xmlns:android="http://schemas.android.com/apk/res/android">
+    <stroke android:width="3dp" android:color="#FF545454" />
+    <corners android:topRightRadius="30dp"
+        android:bottomRightRadius="30dp"/>
+    <solid android:color="#FF20B32F" />
+</shape>
