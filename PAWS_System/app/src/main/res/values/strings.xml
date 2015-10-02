@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">UP P.A.W.S System</string>
+
+    <string name="main_content">Main\nContent</string>
+    <string name="quick_Book">Add New Activity</string>
+    <string name="system_name">PAWS System</string>
+
+    <string name="requiredField">*This field is required</string>
+    <string name="requiredDuration">*Activity can\'t be 0 minutes long</string>
+\
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_default_view">UP P.A.W.S System</string>
+    <string name="status">FREE</string>
+
+    <string name="tempRoomHolder">TEMP TEXT...</string>
+    <string name="activitySubject">Enter subject of activity:</string>
+    <string name="activityStartTime">Enter start time of activity(hh:mm):</string>
+    <string name="activityVenue">Enter Venue of activity:</string>
+    <string name="editboxSubject">Enter activity here...</string>
+    <string name="editboxVenue">Enter venue here...</string>
+    <string name="activityDuration">Enter activity duration:</string>
+    <string name="minutes">Minutes!</string>
+    <string name="current_activity_details">Current activity details:</string>
+    <string name="subject">Subject:</string>
+    <string name="startTime">Start time:</string>
+    <string name="endTime">End time:</string>
+    <string name="Organizer">Venue:</string>
+    <string name="next_activity">Next activity in</string>
+</resources>

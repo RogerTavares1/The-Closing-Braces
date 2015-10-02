@@ -1,0 +1,7 @@
+<!--Layout design for the list view that contains today's activities-->
+
+<shape xmlns:android="http://schemas.android.com/apk/res/android">
+    <stroke android:width="3dp" android:color="#FF545454" />
+    <corners android:bottomLeftRadius="30dp" />
+    <solid android:color="@color/black_overlay" />
+</shape>

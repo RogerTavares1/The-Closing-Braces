@@ -1,0 +1,6 @@
+<!--Layout design for contents frame where data is displayed-->
+
+<shape xmlns:android="http://schemas.android.com/apk/res/android">
+    <stroke android:width="2dp" android:color="#00688B" />
+    <solid android:color="#c8c0c0c0" />
+</shape>

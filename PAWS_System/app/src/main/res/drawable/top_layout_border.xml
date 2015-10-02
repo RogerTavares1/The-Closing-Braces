@@ -1,0 +1,8 @@
+<!--Layout design for the top frame containing company logo and app name-->
+
+<shape xmlns:android="http://schemas.android.com/apk/res/android">
+    <stroke android:width="2dp" android:color="#00688B" />
+    <corners android:topLeftRadius="30dp"
+        android:topRightRadius="30dp"/>
+    <solid android:color="#c8c0c0c0" />
+</shape>

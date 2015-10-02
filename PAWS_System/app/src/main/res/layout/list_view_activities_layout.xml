@@ -1,0 +1,122 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:paddingLeft="20dp"
+    android:paddingRight="20dp"
+    android:paddingTop="5dp"
+    android:paddingBottom="5dp"
+    android:background="@drawable/current_activity_layout_border_selector">
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:focusableInTouchMode="false"
+        android:id="@+id/subjectLinearLayout"
+        android:layout_marginBottom="-5dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/subject"
+            android:id="@+id/lblSubjectList"
+            android:textColor="#00688B"
+            android:textSize="30sp"
+            android:textIsSelectable="false"
+            android:layout_marginRight="20dp"
+            android:textStyle="bold"
+            android:layout_marginLeft="12dp" />
+
+        <TextView android:id="@+id/subject"
+            android:textSize="30sp"
+            android:textStyle="bold"
+            android:layout_width="429dp"
+            android:layout_height="wrap_content"
+            android:textColor="@drawable/selected_item_text_color"
+            android:maxLines="2"
+            android:ellipsize="end"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/OrganizerLinearLayout"
+        android:layout_gravity="center_horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/Organizer"
+            android:id="@+id/lblOrganzerList"
+            android:textColor="#00688B"
+            android:textSize="25sp"
+            android:textIsSelectable="false"
+            android:layout_marginRight="20dp"
+            android:layout_marginLeft="10dp" />
+
+        <TextView
+            android:id="@+id/Organizer"
+            android:textSize="25sp"
+            android:textStyle="bold"
+            android:layout_width="429dp"
+            android:layout_height="wrap_content"
+            android:textColor="@drawable/selected_item_text_color" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/startTimeLinearLayout">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/startTime"
+            android:id="@+id/lblStartTimeList"
+            android:textColor="#00688B"
+            android:textSize="20sp"
+            android:textIsSelectable="false"
+            android:layout_marginRight="20dp"
+            android:layout_marginLeft="25dp" />
+
+        <TextView
+            android:id="@+id/startTime"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:layout_width="429dp"
+            android:layout_height="wrap_content"
+            android:textColor="@drawable/selected_item_text_color" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:id="@+id/endTimeLinearLayout">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/endTime"
+            android:id="@+id/lblEndTimeList"
+            android:textColor="#00688B"
+            android:textSize="20sp"
+            android:textIsSelectable="false"
+            android:layout_marginRight="20dp"
+            android:layout_marginLeft="34dp" />
+
+        <TextView
+            android:id="@+id/endTime"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:layout_width="429dp"
+            android:layout_height="wrap_content"
+            android:textColor="@drawable/selected_item_text_color" />
+    </LinearLayout>
+
+</LinearLayout>

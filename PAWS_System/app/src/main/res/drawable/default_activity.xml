@@ -1,0 +1,8 @@
+<!--Layout design for the frame that holds the information for the current activity if there is one-->
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:right="-3dp">
+<shape>
+    <solid android:color="#FF6B6D6F" />
+</shape>
+    </item>
+    </layer-list>
